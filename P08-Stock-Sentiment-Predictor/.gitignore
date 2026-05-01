@@ -1,0 +1,64 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Project specific
+results/*.pth
+results/*.npy
+results/finbert_finetuned/
+data/processed/
+notebooks/.ipynb_checkpoints/
+.streamlit/
+
+# Large files
+*.tar.gz
+*.zip
+
+# Data cache (keep CSV and small files)
+!results/experiment_results.csv
+!results/backtest_*.png
+!results/closing_prices_chart.png
+!results/rsi_macd_aapl.png
+!results/class_balance.png

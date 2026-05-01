@@ -1,0 +1,4 @@
+Experiment,Accuracy,AUC-ROC
+Price-Only LSTM,0.5265,0.5155
+Sentiment-Only MLP,0.6261,0.6709
+Fusion LSTM (Price+Sent),0.5265,0.5029
